@@ -1,0 +1,14 @@
+PODS:
+  - JHGlowView (0.1.0)
+
+DEPENDENCIES:
+  - JHGlowView (from `../`)
+
+EXTERNAL SOURCES:
+  JHGlowView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JHGlowView: ba952f52ec09cb5d462f466aaf2770a6aea9db62
+
+COCOAPODS: 0.35.0

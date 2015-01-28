@@ -10,29 +10,14 @@
 Pod::Spec.new do |s|
   s.name             = "JHGlowView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of JHGlowView."
-  s.description      = <<-DESC
-                       An optional longer description of JHGlowView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JHGlowView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "Custom progress view with glow effect."
+  s.homepage         = "https://github.com/bangtoven/JHGlowView"
   s.license          = 'MIT'
   s.author           = { "Jungho Bang" => "me@bangtoven.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JHGlowView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/bangtoven/JHGlowView.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '4.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'JHGlowView' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JHGlowView.h"
 
 @interface JHViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet JHGlowView *glowView;
 @end
